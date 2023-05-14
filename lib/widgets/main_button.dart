@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 
@@ -31,18 +32,18 @@ class MainButton extends StatelessWidget {
       width: width ?? double.infinity,
       decoration: BoxDecoration(
         color: color,
-        borderRadius: BorderRadius.circular(15),
+        borderRadius: BorderRadius.circular(5),
       ),
       child: MaterialButton(
         minWidth: width,
         height: height,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15),
+          borderRadius: BorderRadius.circular(5),
         ),
         onPressed: callback,
         child: Text(
           buttonText!,
-          style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500, color: textColor),
+          style: GoogleFonts.alumniSans(fontSize: 22, fontWeight: FontWeight.w500, color: textColor),
         ),
       ),
     );

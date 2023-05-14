@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 import 'package:ownstartup/utils/app_colors.dart';
 import 'dart:async';
 
@@ -15,7 +16,7 @@ class SecondPage extends StatefulWidget {
   _SecondPageState createState() => _SecondPageState();
 }
 
-class _SecondPageState extends State<SecondPage> {
+class _SecondPageState extends State<SecondPage>{
   @override
   void initState() {
     super.initState();
@@ -118,7 +119,7 @@ class _SecondPageState extends State<SecondPage> {
                     FadeAnimatedText(
                       'APPLEHOLIC',
                       duration: const Duration(milliseconds: 1700),
-                      textStyle: GoogleFonts.armata(
+                      textStyle: GoogleFonts.alumniSans(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
